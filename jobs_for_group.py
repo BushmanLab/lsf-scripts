@@ -3,6 +3,14 @@
 
 """
 Output a TSV table of LSF job information for a given user group.
+
+Example:
+
+$ ./jobs_for_group.py usergroup
+NJobs   MaxDays User
+17      6       a_user
+0               somebodyelse
+1       0       somebodyelse2
 """
 
 import sys
